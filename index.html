@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celtics - Website</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/mystyle.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+</head>
+<body class="bg-secondary-subtle">
+    <div id="wrapper" class="container bg-white px-0">
+
+        <!-- navbar from bootsrap v5.3 -->
+        <nav id="nav" class="navbar navbar-expand-lg bg-body-tertiary sticky-top opacity-75">
+            <div class="container-fluid">
+
+            <!-- brand icon or text -->
+            <a class="navbar-brand" href="#"><img src="./img/logo.jpg" class="w-25" alt="logo Celtics"></a>
+
+            <!-- hamburger icon -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- menu links that collapse when viewport is narrow -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#">Home</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#intro">Introduction</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#trophies">Trophies</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#seasons">Gallery</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                
+
+                <!-- dropdown disable
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                -->
+                <!-- disable disabled
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+                -->
+                </ul>
+
+                <!-- form disabled 
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form> -->
+                
+            </div>
+            </div>
+        </nav>
+        
+        <!-- hero section with background-image -->
+        <header id="hero" class="vh-100 d-flex justify-content-center align-items-center ">
+            <button class="btn btn-light mb-8">Ela dri</button>
+        </header>
+
+        <!-- intro section WITH BOOTSTRAP GRID -->
+        <section id="intro" class="p-5 bg-success">
+            <h1 class="display-2 text-center fw-bold text-dark mb-5">Introduction</h1>
+            <!-- basic grid in two columns -->
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-12 col-md-6">
+
+                        <!-- accordion from boostrap -->
+                        <section id="funfacts" class="py-5">
+                            <!-- div.container>div.row>div.col*3 -->
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-0 col-md-1 col-lg-2 col-xxl-3">
+                                    </div>
+                                    <div class="col-12 col-md-10 col-lg-8 col-xxl-6">
+                                        <div class="accordion accordion-flush" id="myaccordion1">
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed bg-black text-white" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                                        Origin
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#myaccordion1">
+                                                    <div class="accordion-body bg-black text-white">The Boston Celtics (/'sɛltɪks/ SEL-tiks) are an American professional basketball team based in Boston. The Celtics compete in the National Basketball Association (NBA) as a member of the Atlantic Division of the Eastern Conference. Founded in 1946 as one of the league's original eight teams, the Celtics play their home games at TD Garden, which is also the home of the National Hockey League's Boston Bruins. The Celtics are one of the most successful teams in NBA history. The franchise's 17 NBA championships are the joint most of any team, alongside their historical rival Los Angeles Lakers. The Celtics currently hold the record for the most recorded wins of any NBA team.</div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                                    Rivalry
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#myaccordion1">
+                                                <div class="accordion-body">The Celtics have a notable rivalry with the Los Angeles Lakers, which was heavily highlighted throughout the 1960s and 1980s. During the two teams' many match-ups in the 1980s, the Celtics' star, Larry Bird, and the Lakers' star, Magic Johnson, had an ongoing feud. The franchise has played the Lakers a record 12 times in the NBA Finals (including recent appearances in 2008 and 2010), of which the Celtics have won nine.Four Celtics players (Bob Cousy, Bill Russell, Dave Cowens and Larry Bird) have won the NBA Most Valuable Player Award for an NBA record total of 10 MVP awards.Both the nickname "Celtics" and their mascot "Lucky the Leprechaun" are a nod to Boston's historically large Irish population, and also to the Original Celtics, a marquee team prior to the NBA.</div>
+                                            </div>
+                                            </div>
+                                            <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                                    Dominance
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#myaccordion1">
+                                                <div class="accordion-body">The Celtics' rise to dominance began in the late 1950s, after the team, led by coach Red Auerbach, acquired center Bill Russell, who would become the cornerstone of the Celtics dynasty, in a draft-day trade in 1956. Led by Russell and point guard Bob Cousy, the Celtics won their first NBA championship in 1957. Russell, along with a talented supporting cast of future Hall of Famers including John Havlicek, Tom Heinsohn, K. C. Jones, Sam Jones, Satch Sanders, and Bill Sharman, would usher the Celtics into the greatest period in franchise history, winning eight consecutive NBA championships from 1959 to 1966. After Russell retired in 1969, the team entered a period of rebuilding.</div>
+                                            </div>
+                                            </div>
+
+                                            <div class="accordion-item">
+                                                <h2 class="accordion-header">
+                                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                                        Downgrade
+                                                    </button>
+                                                </h2>
+                                                <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#myaccordion1">
+                                                    <div class="accordion-body">After the departure of Parish as a free agent, the retirements of Bird and McHale, as well as the untimely deaths of 2nd overall draft pick Len Bias and star player Reggie Lewis, the team struggled through the 1990s and much of the early 2000s. It was not until the Celtics assembled a new "Big Three" of Kevin Garnett, Paul Pierce, and Ray Allen that they found success once again. Under the leadership of head coach Doc Rivers, the team beat the Lakers to win a championship in 2008, but lost to Los Angeles in a seven-game series in 2010, the latest Finals matchup between the two ancient rivals. By the start of the 2013-14 season, none of the new "Big Three" were still with the team. Kevin Garnett and Paul Pierce were traded away to the Brooklyn Nets, while Allen left as a free agent.</div>
+                                                </div>
+                                                </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="col-0 col-md-1 col-lg-2 col-xxl-3">
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <img src="./img/celtics.png" class="w-100" alt="foto tal y cual">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+        
+        <!-- seassons -->
+        <section id="trophies" class="p-5">
+            <h1 class="display-2 text-center fw-bold text-danger mb-5">Trophies</h1>
+            <div class="container">
+                <div class="row g-3">
+                    <div class="col-12 col-md-6 col-lg-3 col-xxl-3">
+                        <!-- card 1 from bootstrap v5.3 -->
+                        <div class="card p-3 rounded-0 shadow">
+                            <img src="./img/gallery1.png" class="card-img-top rounded-0" alt="trophie 1">
+                            <div class="card-body">
+                                <h5 class="card-title">1957 NBA Champions</h5>
+                                <p class="card-text">The 1957 NBA World Championship Series was the championship series of the 1956-57 National Basketball Association season, and was the conclusion of the 1957 NBA Playoffs. The best-of-seven series was played between the Western Division champion St</p>
+                                <a href="#" class="text-decoration-none fw-bold">Read more</a>
+                            </div>
+                        </div>
+                        <!-- end of card 1 -->
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 col-xxl-3">
+                        <!-- card 2 from bootstrap v5.3 -->
+                        <div class="card">
+                            <img src="./img/gallery1.png" class="card-img-top" alt="trophie 1">
+                            <div class="card-body">
+                                <h5 class="card-title">2021-2022 NBA Eastern Conference Champions</h5>
+                                <p class="card-text">The Celtics were one of the most entertaining franchises during the 2021-22 season. The Celtics won the division and the Eastern Conference championship en route to another NBA Finals appearance.</p>
+                                <a href="#" class="btn btn-sm btn-outline-secondary d-block">Read more</a>
+                            </div>
+                        </div><!-- end of card 2 -->
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 col-xxl-3">
+                        <!-- card 3 from bootstrap v5.3 -->
+                        <div class="card">
+                            <img src="./img/gallery1.png" class="card-img-top" alt="trophie 1">
+                            <div class="card-body">
+                                <h5 class="card-title">1981 NBA Champions</h5>
+                                <p class="card-text">Spalding NBA Official Champions basketball. Hand-signed by members of the 1981 NBA Champions Boston Celtics, with Larry Bird, Robert Parish, Gerald Henderson, Cedric Maxwell, and Rick Robey.</p>
+                                <a href="#" class="btn btn-primary mx-auto d-block w-50">Read more</a>
+                            </div>
+                        </div>
+                        <!-- end of card 3 -->
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 col-xxl-3">
+                        <!-- card 4 from bootstrap v5.3 -->
+                        <div class="card border-0">
+                            <img src="https://fastly.picsum.photos/id/121/300/300.jpg?hmac=hf7X9mnXTT8lGx4JW8u5pezZKo0P_5L-D1Gp2KdfrK8" class="card-img-top rounded-circle w-50 d-block mx-auto" alt="trophie 1">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Seasson 1</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga quibusdam quia eius aspernatur consequatur possimus commodi sequi similique ratione quidem, modi et tempore amet magni porro mollitia atque cumque dicta!</p>
+                                <a href="#" class="btn btn-primary d-block">Read more</a>
+                            </div>
+                        </div>
+                        <!-- end of card 4 -->
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 col-xxl-2">
+
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 col-xxl-2">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        </section>
+        <!-- gallery from boostrap -->
+        <section id="gallery">
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <!--  -->
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <!--  -->
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="https://fastly.picsum.photos/id/242/1200/600.jpg?hmac=8lNyRVoUnzf7wbRJjjgTjNSvg9UrPBbXZGMeSxDVz24" class="d-block w-100" alt="...">
+                <!-- d-none para que el texto se quite cuando se achica en moviles -->
+                <div class="carousel-caption d-none d-md-block text-dark p-5 rounded-5">
+                    <h5>First slide label</h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="https://fastly.picsum.photos/id/242/1200/600.jpg?hmac=8lNyRVoUnzf7wbRJjjgTjNSvg9UrPBbXZGMeSxDVz24" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-dark">
+                    <h5>Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+                </div>
+                <div class="carousel-item">
+                <img src="https://fastly.picsum.photos/id/242/1200/600.jpg?hmac=8lNyRVoUnzf7wbRJjjgTjNSvg9UrPBbXZGMeSxDVz24" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-dark">
+                    <h5>Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+                </div>
+                <!--  -->
+                <div class="carousel-item">
+                    <img src="https://fastly.picsum.photos/id/242/1200/600.jpg?hmac=8lNyRVoUnzf7wbRJjjgTjNSvg9UrPBbXZGMeSxDVz24" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-dark">
+                    <h5>Fourth slide label</h5>
+                    <p>Some representative placeholder content for the fourth slide.</p>
+                </div>
+                </div>
+                <!--  -->
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+
+        </section>
+
+        <!-- contact with form from boostrap -->
+        <section id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col p-5 bg-primary">
+                        <h1>Donde estamos:</h1>
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                Teléfono: 622 33 26 10
+                            </li>
+
+                            <li class="list-group-item">
+                                Email: yoquese@gmail.com
+                            </li>
+                            
+                            <li class="list-group-item">
+                                Dirección: C/Frederick Terman 
+                            </li>
+
+                        </ul>
+                        <div class="ratio ratio-1x1 mt-5 w-75 mx-auto">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d992124.1099388382!2d-172.7624185617876!3d-13.749612172455658!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71a513a364ec1003%3A0xa6870c9674617872!2sSamoa!5e0!3m2!1ses!2ses!4v1707212394732!5m2!1ses!2ses" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+
+                    </div>
+                    <div class="col p-5">
+
+                        <form action="" method="post" class="border border-secondary p-5 rounded-3">
+                            <h1>Contacto:</h1>
+                            
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre: </label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" aria-describedby="nombreHelp">
+                                <div id="nombreHelp" class="form-text"></div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="apellidos" class="form-label">Apellidos: </label>
+                                <input type="text" class="form-control" id="apellidos" name="apellidos" aria-describedby="apellidosHelp">
+                                <div id="apellidosHelp" class="form-text"></div>
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email: </label>
+                                <input type="email" class="form-control" id="name" name="email" aria-describedby="emailHelp">
+                                <div id="emailHelp" class="form-text"></div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label for="provincia" class="form-label">Provincia</label>
+                                <select class="form-select" id="provincia" name="provincia" aria-label="Default select example">
+                                    <option value="0">-- elige</option>
+                                    <option value="29">Málaga</option>
+                                    <option value="18">Granada</option>
+                                    <option value="4">Almería</option>
+                                </select>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="sexo" id="masculino" value="masculino">
+                                <label class="form-check-label" for="masculino">
+                                    Masculino
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="sexo" id="femenino" value="femenino">
+                                <label class="form-check-label" for="femenino">
+                                    Femenino
+                                </label>
+                            </div>
+
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="sexo" id="otro" value="otro">
+                                <label class="form-check-label" for="otro">
+                                    Otro
+                                </label>
+                            </div>
+                            
+                            <div class="my-5 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">
+                                        <a id="trigger" data-bs-toggle="modal" data-bs-target="#exampleModal" class="text-primary fw-bold text-decoration-none">Acepto los términos y condiciones</a>
+                                    </label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel et facere quas dignissimos molestias dicta veritatis, corporis consectetur, accusamus, iste repudiandae doloremque expedita illo officia nam! Molestiae quis autem animi.
+                                    Consequuntur, amet laboriosam corrupti nesciunt ex soluta est unde excepturi possimus cumque vel doloremque itaque quas praesentium perferendis rerum recusandae eius omnis accusantium cupiditate aliquid. Commodi, cupiditate. Et, ullam necessitatibus.
+                                    Sint nostrum quod expedita placeat perspiciatis repellat, eligendi eaque ipsam natus repudiandae aliquam quam voluptatum? Quisquam aliquid temporibus, eum illum optio eveniet, repellendus quos praesentium dolore hic labore eius rem?
+                                    Non, modi dolorum. Corporis sint distinctio quibusdam perspiciatis? Exercitationem ab aliquid veritatis eius itaque deleniti similique aspernatur laboriosam facere eligendi suscipit natus provident sequi assumenda, totam adipisci deserunt, ex fugiat.
+                                    Quod praesentium sunt ut est, eos quos provident minima harum expedita, quasi voluptate? Nisi distinctio deleniti quibusdam quisquam maiores minima accusamus blanditiis voluptatibus dolore, illo, corrupti enim tenetur iure veniam!
+                                    Illo sit, aliquid incidunt totam error tempore voluptate esse dicta dolor exercitationem hic debitis accusantium laudantium nobis temporibus vero, distinctio, expedita doloribus at alias. Et accusantium deleniti nam neque similique?
+                                    Aliquam fugiat praesentium sint maxime! Nemo amet qui, et id magni similique aliquid nihil tempore culpa natus saepe esse quasi dolorum blanditiis vero consequatur quos nam omnis perspiciatis maxime pariatur.
+                                    Vel consectetur tempore deleniti nemo debitis fugiat ipsa illo adipisci rem? Sint perferendis optio temporibus distinctio recusandae omnis quisquam deserunt itaque dignissimos rem. Voluptas quas architecto perferendis deleniti dolores quam?
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Understood</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer with grid in 3 irregular columns -->
+        <footer class="p-3 bg-secondary text-white">
+            <!-- grid -->
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-6 col-lg-3 p-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse suscipit minima tempora soluta, libero temporibus necessitatibus sint fugiat, optio, officiis quaerat repellat exercitationem dignissimos sed. Perferendis ducimus dolor rerum eveniet.
+                    </div>
+                    <div class="col-6 col-lg-3 p-3">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, perferendis, obcaecati aperiam quas esse officia a aut, quam odio dolore quibusdam illum ullam ipsa magni laudantium molestias ratione blanditiis dicta!
+                    </div>
+                    <div class="col-12 col-lg-6 p-3">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus molestiae voluptatum quis quisquam, quos cumque optio quas delectus nesciunt aperiam eligendi unde, similique dicta quidem voluptatibus totam voluptates dignissimos! Natus?
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

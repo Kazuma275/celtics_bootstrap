@@ -1,0 +1,52 @@
+/***************************************/
+
+/**************** fonts ****************/
+
+
+/*************** nav ****************/
+
+#nav {
+    
+}
+
+/*************** sizing ****************/
+
+.w-25 {
+    width: 25%;
+}
+
+.mb-8 {
+    margin-bottom: 8em;
+}
+
+/**************** colors **************/
+
+.bg-salmon {
+    background-color: salmon;
+}
+
+.card:hover {
+    box-shadow: 3px 3px 10px lightgray;
+}
+
+#trigger {
+    cursor:pointer;
+}
+
+#trigger:hover {
+    opacity: 0.75;
+}
+
+/**************** hero ****************/
+
+#hero {
+    background-image: url("../img/cabecera.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/*************** carousels **************/
+
+.carousel-caption {
+    background-color: rgba(128, 128, 128, 0.506);
+}
