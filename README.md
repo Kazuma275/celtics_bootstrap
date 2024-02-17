@@ -80,10 +80,10 @@ Encima de la imagen he colocado un botón que le lleva al usuario directamente a
 
 <h3>Tipografías</h3>
 <p>
-  Texto normal -> Vintage Browner
+  Texto normal -> Helvetica Neue
 </p>
 <p>
-  Títulos      -> Net Proxima Nova Bold
+  Títulos      -> Arial, sans-serif
 </p>
 
 <h3>Imágenes</h3>
@@ -95,7 +95,7 @@ Encima de la imagen he colocado un botón que le lleva al usuario directamente a
 <h2 id="snippets">Code snippets</h2>
 <p>He utilizado los siguientes:</p>
 <ul>
-  <li>Barra de navegación: tomada de w3Schools "How to" https://www.w3schools.com/howto/howto_js_topnav.asp </li>
-  <li>Accordion: tomado de freefronted "40 + CSS Accordions" https://freefrontend.com/css-accordions/ </li>
-  <li>Modal: tomada de w3Schools "How to" https://www.w3schools.com/howto/howto_css_modals.asp </li>
+  <li>Barra de navegación: tomada de bootstrap https://www.w3schools.com/howto/howto_js_topnav.asp](https://getbootstrap.com/docs/5.3/components/navbar/#how-it-works) </li>
+  <li>Accordion: tomado de boostrap https://freefrontend.com/css-accordions/](https://getbootstrap.com/docs/5.3/components/accordion/#how-it-works) </li>
+  <li>Modal: tomada de boostrap https://getbootstrap.com/docs/5.3/components/modal/#how-it-works </li>
 </ul>
