@@ -31,7 +31,7 @@
 <h2>Hero Section</h2>
 <img src="./img/cabecera.jpg" alt="imagen de la hero section" style="width:50%">
 <p>He utilizado una imagen de fondo tomada de una aportación de un fan, tiene una buena resolución y encaja perfectamente con la temática de mi página web. 
-Encima de la imagen he colocado un botón que le lleva al usuario directamente a la página de contacto de los Boston Celtics</p>
+Encima de la imagen he colocado un botón que le lleva al usuario directamente al apartado de contacto de los Boston Celtics</p>
 
 <br>
 
@@ -62,11 +62,8 @@ Encima de la imagen he colocado un botón que le lleva al usuario directamente a
 <br>
 
 <h2>Footer</h2>
-<h4>Menú vertical izquierdo</h4>
-<p>En el footer he incluido un apartado de redes sociales (facebook, twitter, instagram, linkedin), los cuales al hacer click encima de sus respectivas imágenes le llevará a las redes sociales oficiales del equipo de baloncesto. Además he incluido un apartado denomidado "Site oficial" que le llevará directamente a la página web oficial. Por último he añadido un apartado de créditos que funciona con una ventana emergente (modal).</p>
-
-<h4>Menú vertical derecho</h4>
-<p>He implementado un pequeño menú vertical con todas los apartados de la página web por si es que te has quedado con más ganas de echarle un vistazo.</p>
+<p> En el footer he añadido todos los recursos de la propiedad intelectual de Celtics, además de sus corrrespondientes propietarios</p>
+<img src="./img/footer.png" alt="imagen de la hero section" style="width:50%">
 
 <h4>Localización</h4>
 <p>He añadido un enlace directo al estadio del equipo de baloncesto por si es que te da por querer ir a ver unos de sus emocionantes partidos.</p>
