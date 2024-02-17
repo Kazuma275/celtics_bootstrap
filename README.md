@@ -1,4 +1,4 @@
-<h1>Memoria del proyecto fin de evaluación de Lenguajes de Marcas - 1º DAW</h1>
+<h1>Proyecto de landing page con Bootstrap v5 - 1º DAW</h1>
 <h2>Celtics - Website tribute </h2>
 <h2>Indice</h2>
 <ul>
@@ -24,7 +24,6 @@
   <li>Introducción </li>
   <li>Trophies </li>
   <li>Video </li>
-  <li>Coaching Staff </li>
   <li>Gallery </li>
   <li>Footer </li>
 </ul>
@@ -37,7 +36,7 @@ Encima de la imagen he colocado un botón que le lleva al usuario directamente a
 <br>
 
 <h2>Introducción</h2>
-<img src="./img/accordion.PNG" alt="imagen del accordion" style="width:25%"> <img src="./img/celtics.png" alt="imagen del escudo" style="width:25%">
+<img src="./img/accordion2.PNG" alt="imagen del accordion" style="width:25%"> <img src="./img/bostonceltics.png" alt="imagen del escudo" style="width:25%">
 <p>He dispuesto en un grid de 2 columnas, en una he puesto un accordion, y en la otra la imagen del escudo del equipo.</p>
 
 <br>
