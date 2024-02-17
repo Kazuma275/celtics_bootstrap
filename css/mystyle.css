@@ -15,6 +15,10 @@
     text-align: center !important;
 }
 
+.video-w-100{
+    width: 100% !important;
+}
+
 
 /*************** sizing ****************/
 
@@ -56,4 +60,9 @@
 
 .carousel-caption {
     background-color: rgba(128, 128, 128, 0.506);
+}
+
+.carousel-w-80{
+    width: 80% !important;
+    margin: auto !important;
 }
